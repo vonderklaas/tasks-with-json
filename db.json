@@ -23,18 +23,6 @@
       "text": "Angular Course",
       "day": "May 6th at 1:30pm",
       "reminder": true
-    },
-    {
-      "text": "tes",
-      "day": "123",
-      "reminder": true,
-      "id": 5
-    },
-    {
-      "text": "sadasdas",
-      "day": "sadasas",
-      "reminder": true,
-      "id": 6
     }
   ]
 }

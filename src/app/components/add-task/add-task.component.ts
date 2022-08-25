@@ -25,7 +25,7 @@ export class AddTaskComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  onSubmit() {
+  addTask() {
     if (!this.text) {
       alert('Please add a task!');
       return;
@@ -38,7 +38,6 @@ export class AddTaskComponent implements OnInit {
     };
 
     this.onAddTask.emit(newTask);
-
     this.cleanFormInputs();
   }
 

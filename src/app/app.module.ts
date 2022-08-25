@@ -8,10 +8,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ButtonComponent } from './components/button/button.component';
-import { TasksComponent } from './components/tasks/tasks.component';
-import { TaskItemComponent } from './components/task-item/task-item.component';
+import { TasksComponent } from './pages/tasks/tasks.component';
+import { TaskComponent } from './components/task/task.component';
 import { AddTaskComponent } from './components/add-task/add-task.component';
-import { AboutComponent } from './components/about/about.component';
+import { AboutComponent } from './pages/about/about.component';
 import { FooterComponent } from './components/footer/footer.component';
 
 const appRoutes: Routes = [
@@ -31,7 +31,7 @@ const appRoutes: Routes = [
     HeaderComponent,
     ButtonComponent,
     TasksComponent,
-    TaskItemComponent,
+    TaskComponent,
     AddTaskComponent,
     AboutComponent,
     FooterComponent,

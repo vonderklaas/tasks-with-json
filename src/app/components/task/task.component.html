@@ -4,12 +4,13 @@
   class="task"
 >
   <h3>
-    {{ task.text }}
+    <span>{{ task.text }}</span>
     <fa-icon
       (click)="onDelete(task)"
-      [ngStyle]="{ color: 'red' }"
+      [ngStyle]="{ color: 'orange' }"
       [icon]="faTimes"
     ></fa-icon>
   </h3>
+  <br />
   <p>{{ task.day }}</p>
 </div>
