@@ -1,13 +1,23 @@
 <header>
   <nav class="navbar">
-    <a routerLink="/">Tasks</a>
-    <a routerLink="/about">About</a>
+    <a
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      routerLink="/"
+      >Tasks</a
+    >
+    <a
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      routerLink="/about"
+      >About</a
+    >
   </nav>
   <div class="header">
     <app-button
       *ngIf="hasRoute('/')"
       color="{{ showAddTask ? 'red' : 'green' }}"
-      text="{{ showAddTask ? 'Close' : 'Add' }}"
+      text="{{ showAddTask ? 'Close Menu' : 'Add Task' }}"
       (btnClick)="toggleAddTask()"
     ></app-button>
   </div>

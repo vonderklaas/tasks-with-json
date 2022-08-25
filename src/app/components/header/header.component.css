@@ -1,5 +1,21 @@
 .navbar {
   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  background-color: orange;
+  padding: 20px;
+}
+
+.navbar a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+}
+
+.active {
+  color: green !important;
 }
 
 .header {

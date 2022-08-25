@@ -1,3 +1,10 @@
 .add-form {
   margin-bottom: 40px;
+  border: 1px solid black;
+  padding: 10px 20px 10px 10px;
+  margin: 5px;
+}
+
+.add-form input {
+  width: 100%;
 }

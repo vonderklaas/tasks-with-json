@@ -18,10 +18,12 @@ const appRoutes: Routes = [
   {
     path: '',
     component: TasksComponent,
+    pathMatch: 'full',
   },
   {
     path: 'about',
     component: AboutComponent,
+    pathMatch: 'full',
   },
 ];
 
