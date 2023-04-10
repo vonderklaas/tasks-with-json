@@ -3,19 +3,19 @@
   display: flex;
   align-items: center;
   margin-bottom: 15px;
-  background-color: orange;
-  padding: 20px;
+  background-color: palegoldenrod;
+  padding: 30px;
 }
 
 .navbar a {
   margin-right: 20px;
   text-decoration: none;
-  color: #fff;
-  font-size: 15px;
+  color: black;
+  font-size: 1.5rem;
 }
 
 .active {
-  color: green !important;
+  color: palevioletred !important;
 }
 
 .header {

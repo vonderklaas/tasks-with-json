@@ -4,16 +4,17 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 body {
   font-family: sans-serif;
 }
 
 .container {
-  max-width: 750px;
-  margin: 30px auto;
-  overflow: auto;
-  padding: 30px;
-  border-radius: 5px;
+  overflow: hidden;
 }
 
 .btn {
@@ -72,4 +73,14 @@ body {
 .form-control-check input {
   flex: 2;
   height: 20px;
+}
+
+.instructions {
+  padding: 20px;
+  margin: 0;
+}
+
+.footer {
+  margin-top: 30px;
+  text-align: center;
 }
